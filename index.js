@@ -24,4 +24,4 @@ app.use('/api', apiProxy);
 const port = process.env.PORT || 3001;
 app.listen(port, () => {
   console.log(`Proxy server is running on port ${port} and proxying to ${target}`);
-});
+}); 
